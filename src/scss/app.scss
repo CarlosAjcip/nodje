@@ -1,0 +1,7 @@
+//version anterior
+//@import 'base/variable';
+//@import 'contenido/_contenido';
+
+//version nueva se tendra que crear un archivo -> index.css en las carpetas scss y escribir @forward '-----';
+@use 'base';
+@use 'layout';
